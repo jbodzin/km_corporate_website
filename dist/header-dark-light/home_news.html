@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Kirkendoll Management, LLC</title>
+
+    <link rel="shortcut icon" href="img/km_logo.png">
+
+    <meta name="description" content="">
+
+    <!-- CSS -->
+    <link href="css/preload.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="css/animate.min.css" rel="stylesheet" media="screen">
+    <link href="css/slidebars.css" rel="stylesheet" media="screen">
+    <link href="css/lightbox.css" rel="stylesheet" media="screen">
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
+    <link href="css/syntaxhighlighter/shCore.css" rel="stylesheet" media="screen">
+
+    <link href="css/style-blue.css" rel="stylesheet" media="screen" title="default">
+    <link href="css/width-full.css" rel="stylesheet" media="screen" title="default">
+
+    <link href="css/buttons.css" rel="stylesheet" media="screen">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+
+<body>
+
+<div id="sb-site">
+<div class="boxed">
+
+<header id="header-full-top" class="hidden-xs header-full-dark">
+    <div class="container">
+        <div class="header-full-title">
+            <h1 class="animated fadeInRight"><a href="index.html"><img src="img/km_logo.gif" class="img-responsive" alt="Image"></a></h1>
+        </div>
+        <nav class="top-nav">
+            <ul class="top-nav-social hidden-sm">
+                <li><a href="javascript:(function(){var a=window,b=document,c=encodeURIComponent,d=a.open(&apos;http://www.seocentro.com/cgi-bin/promotion/bookmark-rss/rss.pl?u=&apos;+c( &apos;http://sandbox.kirkmgmt.com/dist/assets/index.html&apos; ),&apos;bookmark_popup&apos;,&apos;left=&apos;+((a.screenX||a.screenLeft)+10)+&apos;,top=&apos;+((a.screenY||a.screenTop)+10)+&apos;,height=480px,width=720px,scrollbars=1,resizable=1,alwaysRaised=1&apos;);a.setTimeout(function(){ d.focus()},300)})();" class="animated fadeIn animation-delay-6 rss"><i class="fa fa-rss"></i></a></li>
+                <li><a href="https://plus.google.com/u/1/b/118291815232661558465/" class="animated fadeIn animation-delay-9 googleplus"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/follow/submit?id=2916187&amp;fl=stop&amp;ft=0_PWlkCBCbXDzBVTHHzaWTfsMJmutq8IKuSbkwJKbiLFhfPem5KpToWp7H45jea9aM&amp;csrfToken=ajax%3A6387627111370316937&amp;goback=%2Ebzo_*1_*1_*1_*1_*1_*1_*1_kirkendoll*5management*5llc&amp;trk=co_followed-stop" class="animated fadeIn animation-delay-7 linkedin"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+            <!--
+            <div class="dropdown animated fadeInDown animation-delay-11">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Login</a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-login-box animated fadeInUp">
+                    <form role="form">
+                        <h4>Login Form</h4>
+
+                        <div class="form-group">
+                            <div class="input-group login-input">
+                                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                <input type="text" class="form-control" placeholder="Username">
+                            </div>
+                            <br>
+                            <div class="input-group login-input">
+                                <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                <input type="password" class="form-control" placeholder="Password">
+                            </div>
+                            <div class="checkbox pull-left">
+                                <label>
+                                    <input type="checkbox"> Remember me
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-ar btn-primary pull-right">Login</button>
+                            <div class="clearfix"></div>
+                        </div>
+                    </form>
+                </div>
+            </div> <!-- dropdown -->
+            <!--
+            <div class="dropdown animated fadeInDown animation-delay-13">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-search-box animated fadeInUp">
+                    <form role="form">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-ar btn-primary" type="button">Go!</button>
+                            </span>
+                        </div><!-- /input-group --><!--
+                    </form>
+                </div>
+            </div> <!-- dropdown -->
+        </nav>
+    </div> <!-- container -->
+</header> <!-- header-full -->
+<nav class="navbar navbar-static-top navbar-default navbar-header-full" role="navigation" id="header">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand hidden-lg hidden-md hidden-sm" href="index.html">Kirkendoll Management</a>
+        </div> <!-- navbar-header -->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!--<div class="pull-right">
+        
+            <a href="javascript:void(0);" class="sb-icon-navbar sb-toggle-right"><i class="fa fa-bars"></i></a>
+        </div>!-->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="about_us.html" class="active">About Us</a>
+                </li>
+                <li>
+                    <a href="clubs.html" class="active">Clubs</a>
+                </li>    
+                <li>
+                    <a href="blog.html" class="active">Blog</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="active">Contact</a>
+                </li>
+             </ul>
+        </div><!-- navbar-collapse -->
+    </div><!-- container -->
+</nav>
+
+<div class="container margin-top">
+    <div class="row">
+        <div class="col-md-9">
+            <div id="carousel-example-captions" class="carousel carousel-images slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-captions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-captions" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-captions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                    <img src="img/demo/n1.jpg" alt="First slide image">
+                    <div class="carousel-caption carousel-caption-dark animated fadeInUpBig">
+                        <h3><a href="#">The last news title</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque aliquid, asperiores sequi corrupti laborum inventore itaque ipsum tempora iusto maiores sed illo sint repellat omnis aperiam dolore. Numquam minima alias.</p>
+                    </div>
+                    </div>
+                    <div class="item">
+                    <img src="img/demo/n1.jpg" alt="Second slide image">
+                    <div class="carousel-caption carousel-caption-dark animated fadeInUpBig">
+                        <h3><a href="#">This is a news title</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    </div>
+                    <div class="item">
+                    <img src="img/demo/n1.jpg" alt="Third slide image">
+                    <div class="carousel-caption carousel-caption-dark animated fadeInUpBig">
+                        <h3><a href="#">Other last news title</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae iste doloribus exercitationem in sit optio similique quia quos minus reprehenderit?</p>
+                    </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#carousel-example-captions" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-captions" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div> <!-- carousel -->
+            <div class="row margin-top">
+                <div class="col-sm-6">
+                    <img src="img/demo/office3.jpg" alt="" class="img-responsive">
+                    <h4 class="strong"><a href="#">Velit obcaecati veritatis excepturi aliquid ullam</a></h4>
+                    <small><a href="#">Rick Watt</a> | March 12, 2014</small>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non illum, odio repellat excepturi veritatis, quidem, labore quae sint delectus tenetur et mollitia officia pariatur at vitae harum consequuntur tempore iure.</p>
+                </div>
+                <div class="col-sm-6">
+                    <img src="img/demo/office2.jpg" alt="" class="img-responsive">
+                    <h4 class="strong"><a href="#">Velit obcaecati veritatis excepturi aliquid ullam</a></h4>
+                    <small><a href="#">Rick Watt</a> | March 12, 2014</small>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non illum, odio repellat excepturi veritatis, quidem, labore quae sint delectus tenetur et mollitia officia pariatur at vitae harum consequuntur tempore iure.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="row">
+                <div class="col-md-12 col-sm-4">
+                    <div class="home-news-box">
+                        <h5 class="no-margin"><a href="#">Lorem ipsum dolor sit amet elit labore quae sint delectus tenetur</a></h5>
+                        <small><a href="#">Jack Nylon</a> | January 20, 2014</small>
+                        <div class="video">
+                                    <iframe src="http:///player.vimeo.com/video/30196331?title=0&amp;byline=0&amp;portrait=0"></iframe>
+                                </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-4">
+                    <div class="home-news-box">
+                        <h5 class="no-margin"><a href="#">Velit obcaecati veritatis excepturi aliquid repellat odio ullam</a></h5>
+                        <small><a href="#">Rick Watt</a> | March 12, 2014</small>
+                        <img src="img/demo/office4.jpg" alt="" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-md-12 col-sm-4">
+                    <div class="home-news-box">
+                        <h5 class="no-margin"><a href="#">Quia nesciunt deleniti veniam in a blanditis odio repellat excepturi</a></h5>
+                        <small><a href="#">Rick Watt</a> | March 12, 2014</small>
+                        <img src="img/demo/office1.jpg" alt="" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- row -->
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="right-line no-margin-bottom">Browse by Topic</h2>
+        </div>
+        <div class="col-md-4">
+            <h3>Category Name</h3>
+            <div class="media">
+              <a class="pull-left" href="#">
+                <img class="media-object" src="js/holder.js/100x100/social" alt="...">
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, dolor vitae praesentiu.</p>
+              </div>
+            </div>
+            <div class="media">
+              <a class="pull-left" href="#">
+                <img class="media-object" src="js/holder.js/100x100/social" alt="...">
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, dolor vitae praesentiu.</p>
+              </div>
+            </div>
+            <div class="media">
+              <a class="pull-left" href="#">
+                <img class="media-object" src="js/holder.js/100x100/social" alt="...">
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, dolor vitae praesentiu.</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h3>Category Name</h3>
+            <div class="media">
+              <a class="pull-left" href="#">
+                <img class="media-object" src="js/holder.js/100x100/social" alt="...">
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, dolor vitae praesentiu.</p>
+              </div>
+            </div>
+            <div class="media">
+              <a class="pull-left" href="#">
+                <img class="media-object" src="js/holder.js/100x100/social" alt="...">
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, dolor vitae praesentiu.</p>
+              </div>
+            </div>
+            <div class="media">
+              <a class="pull-left" href="#">
+                <img class="media-object" src="js/holder.js/100x100/social" alt="...">
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, dolor vitae praesentiu.</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h3>Category Name</h3>
+            <div class="media">
+              <a class="pull-left" href="#">
+                <img class="media-object" src="js/holder.js/100x100/social" alt="...">
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, dolor vitae praesentiu.</p>
+              </div>
+            </div>
+            <div class="media">
+              <a class="pull-left" href="#">
+                <img class="media-object" src="js/holder.js/100x100/social" alt="...">
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, dolor vitae praesentiu.</p>
+              </div>
+            </div>
+            <div class="media">
+              <a class="pull-left" href="#">
+                <img class="media-object" src="js/holder.js/100x100/social" alt="...">
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Media heading</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, dolor vitae praesentiu.</p>
+              </div>
+            </div>
+        </div>
+    </div> <!-- row -->
+    <div class="row">
+        <div class="col-md-8">
+            <h2 class="section-title">Latest images</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="img-caption-ar">
+                        <img src="img/demo/w1.jpg" class="img-responsive" alt="Image">
+                        <div class="caption-ar">
+                            <div class="caption-content">
+                                <a href="#" class="animated fadeInDown"><i class="fa fa-search"></i>More info</a>
+                                <h4 class="caption-title">Image title</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="img-caption-ar">
+                        <img src="img/demo/w2.jpg" class="img-responsive" alt="Image">
+                        <div class="caption-ar">
+                            <div class="caption-content">
+                                <a href="#" class="animated fadeInDown"><i class="fa fa-search"></i>More info</a>
+                                <h4 class="caption-title">Image title</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="img-caption-ar">
+                        <img src="img/demo/w3.jpg" class="img-responsive" alt="Image">
+                        <div class="caption-ar">
+                            <div class="caption-content">
+                                <a href="#" class="animated fadeInDown"><i class="fa fa-search"></i>More info</a>
+                                <h4 class="caption-title">Image title</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="img-caption-ar">
+                        <img src="img/demo/w4.jpg" class="img-responsive" alt="Image">
+                        <div class="caption-ar">
+                            <div class="caption-content">
+                                <a href="#" class="animated fadeInDown"><i class="fa fa-search"></i>More info</a>
+                                <h4 class="caption-title">Image title</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="img-caption-ar">
+                        <img src="img/demo/w5.jpg" class="img-responsive" alt="Image">
+                        <div class="caption-ar">
+                            <div class="caption-content">
+                                <a href="#" class="animated fadeInDown"><i class="fa fa-search"></i>More info</a>
+                                <h4 class="caption-title">Image title</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="img-caption-ar">
+                        <img src="img/demo/w6.jpg" class="img-responsive" alt="Image">
+                        <div class="caption-ar">
+                            <div class="caption-content">
+                                <a href="#" class="animated fadeInDown"><i class="fa fa-search"></i>More info</a>
+                                <h4 class="caption-title">Image title</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h2 class="section-title">Social Media</h2>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs nav-tabs-ar">
+              <li class="active"><a href="#home3" data-toggle="tab"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#profile3" data-toggle="tab"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#messages3" data-toggle="tab"><i class="fa fa-rss"></i></a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane active" id="home3">
+                  <p class="small"><a href="#">@areason</a> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="http://goo.gl/rMZhoY">http://goo.gl/rMZhoY</a></p>
+                  <hr class="dotted margin-small">
+                  <p class="small"><a href="#">@areason</a> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima pariatur perferendis eaque quidem sunt excepturi.</p>
+                  <hr class="dotted margin-small">
+                  <p class="small"><a href="#">@areason</a>architecto asperiores eaque quidem ullam dolores consequatur.</p>
+                  <hr class="dotted margin-small">
+                  <p class="small"><a href="#">@areason</a> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima pariatur perferendis eaque quidem sunt excepturi.</p>
+              </div>
+              <div class="tab-pane" id="profile3">
+                  <p><strong>Put here your facebook widget!</strong></p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores unde consequatur architecto deserunt nam veritatis accusantium maiores eos neque, blanditiis quibusdam sapiente tempora saepe quas impedit cumque dolorem, perferendis nobis?</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id laborum, eaque nostrum. Illo iusto sed voluptatum.</p>
+              </div>
+              <div class="tab-pane" id="messages3">
+                  <p class="small"><a href="#">Eum, voluptatum! Quam ipsum, quidem ullam aliquam ipsa aspernatur</a> 21/04/14</p>
+                  <hr class="dotted margin-small">
+                  <p class="small"><a href="#">Amet aperiam error, sapiente corrupti, pariatur perferendis dolor eligendi</a> 17/10/13</p>
+                  <hr class="dotted margin-small">
+                  <p class="small"><a href="#">Distinctio autem perspiciatis, officiis eaque nostrum eveniet beatae odit</a> 7/10/13</p>
+                  <hr class="dotted margin-small">
+                  <p class="small"><a href="#">Doloremque possimus praesentium quae consectetur molestiae esse, quasi</a> 19/09/13</p>
+              </div>
+            </div>
+        </div>
+    </div> <!-- row -->
+</div> <!-- container -->
+
+<aside id="footer-widgets">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3 class="footer-widget-title">Sitemap</h3>
+                <ul class="list-unstyled three_cols">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="clubs.html">Clubs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="charity.html">Charity</a></li>
+                </ul>
+                <h3 class="footer-widget-title">Subscribe</h3>
+                <p>Lorem ipsum Amet fugiat elit nisi anim mollit minim labore ut esse Duis ullamco ad dolor veniam velit.</p>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Email Adress">
+                    <span class="input-group-btn">
+                        <button class="btn btn-ar btn-primary" type="button">Subscribe</button>
+                    </span>
+                </div><!-- /input-group -->
+            </div>
+            <div class="col-md-4">
+                <div class="footer-widget">
+                    <h3 class="footer-widget-title">Recent Post</h3>
+                    <div class="media">
+                        <a class="pull-left" href="#"><img class="media-object" src="" width="75" height="75" alt="image"></a>
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="#"></a></h4>
+                            <small></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer-widget">
+                    <h3 class="footer-widget-title">Our Properties</h3>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                            <a href="penthouse_baton_rouge.html" class="thumbnail"><img src="img/PHBR_Logo_small.png" class="img-responsive" alt="Penthouse Club Baton Rouge"></a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                            <a href="penthouse_new_orleans.html" class="thumbnail"><img src="img/PHNO_Logo_small.png" class="img-responsive" alt="Penthouse Club New Orleans"></a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                            <a href="Crazy_Horse_gonzales.html" class="thumbnail"><img src="img/CHG_Logo_small.png" class="img-responsive" alt="Crazy Horse Gonzales"></a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                            <a href="Crazy_Horse_port_allen.html" class="thumbnail"><img src="img/CHPA_Logo_small.png" class="img-responsive" alt="Crazy Horse Port Allen"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- row -->
+    </div> <!-- container -->
+</aside> <!-- footer-widgets -->
+<footer id="footer">
+    <p>&copy; 2014 <a href="#">Kirkendoll Management</a>, LLC. All rights reserved.</p>
+</footer>
+
+</div> <!-- boxed -->
+</div> <!-- sb-site -->
+
+<div class="sb-slidebar sb-right">
+    <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search...">
+        <span class="input-group-btn">
+            <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+        </span>
+    </div><!-- /input-group -->
+
+    <h2 class="slidebar-header no-margin-bottom">Navigation</h2>
+    <ul class="slidebar-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="clubs.html">Clubs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <h2 class="slidebar-header">Social Media</h2>
+    <div class="slidebar-social-icons">
+        <a href="#" class="social-icon-ar rss"><i class="fa fa-rss"></i></a>
+        <a href="#" class="social-icon-ar facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="social-icon-ar twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="social-icon-ar pinterest"><i class="fa fa-pinterest"></i></a>
+        <a href="#" class="social-icon-ar instagram"><i class="fa fa-instagram"></i></a>
+        <a href="#" class="social-icon-ar wordpress"><i class="fa fa-wordpress"></i></a>
+        <a href="#" class="social-icon-ar linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="social-icon-ar flickr"><i class="fa fa-flickr"></i></a>
+        <a href="#" class="social-icon-ar vine"><i class="fa fa-vine"></i></a>
+        <a href="#" class="social-icon-ar dribbble"><i class="fa fa-dribbble"></i></a>
+    </div>
+</div> <!-- sb-slidebar sb-right -->
+<div id="back-top">
+    <a href="#header"><i class="fa fa-chevron-up"></i></a>
+</div>
+<!-- Scripts -->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/slidebars.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/holder.js"></script>
+<script src="js/buttons.js"></script>
+<script src="js/styleswitcher.js"></script>
+<script src="js/jquery.mixitup.min.js"></script>
+<script src="js/circles.min.js"></script>
+
+<!-- Syntaxhighlighter -->
+<script src="js/syntaxhighlighter/shCore.js"></script>
+<script src="js/syntaxhighlighter/shBrushXml.js"></script>
+<script src="js/syntaxhighlighter/shBrushJScript.js"></script>
+
+<script src="js/app.js"></script>
+
+</body>
+
+</html>

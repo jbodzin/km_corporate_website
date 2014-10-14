@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Kirkendoll Management, LLC</title>
+
+    <link rel="shortcut icon" href="img/km_logo.png">
+
+    <meta name="description" content="">
+
+    <!-- CSS -->
+    <link href="css/preload.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="css/animate.min.css" rel="stylesheet" media="screen">
+    <link href="css/slidebars.css" rel="stylesheet" media="screen">
+    <link href="css/lightbox.css" rel="stylesheet" media="screen">
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
+    <link href="css/syntaxhighlighter/shCore.css" rel="stylesheet" media="screen">
+
+    <link href="css/style-blue.css" rel="stylesheet" media="screen" title="default">
+    <link href="css/width-full.css" rel="stylesheet" media="screen" title="default">
+
+    <link href="css/buttons.css" rel="stylesheet" media="screen">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+
+<body>
+
+<div id="sb-site">
+<div class="boxed">
+
+<header id="header-full-top" class="hidden-xs header-full-dark">
+    <div class="container">
+        <div class="header-full-title">
+            <h1 class="animated fadeInRight"><a href="index.html"><img src="img/km_logo.gif" class="img-responsive" alt="Image"></a></h1>
+        </div>
+        <nav class="top-nav">
+            <ul class="top-nav-social hidden-sm">
+                <li><a href="javascript:(function(){var a=window,b=document,c=encodeURIComponent,d=a.open(&apos;http://www.seocentro.com/cgi-bin/promotion/bookmark-rss/rss.pl?u=&apos;+c( &apos;http://sandbox.kirkmgmt.com/dist/assets/index.html&apos; ),&apos;bookmark_popup&apos;,&apos;left=&apos;+((a.screenX||a.screenLeft)+10)+&apos;,top=&apos;+((a.screenY||a.screenTop)+10)+&apos;,height=480px,width=720px,scrollbars=1,resizable=1,alwaysRaised=1&apos;);a.setTimeout(function(){ d.focus()},300)})();" class="animated fadeIn animation-delay-6 rss"><i class="fa fa-rss"></i></a></li>
+                <li><a href="https://plus.google.com/u/1/b/118291815232661558465/" class="animated fadeIn animation-delay-9 googleplus"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/follow/submit?id=2916187&amp;fl=stop&amp;ft=0_PWlkCBCbXDzBVTHHzaWTfsMJmutq8IKuSbkwJKbiLFhfPem5KpToWp7H45jea9aM&amp;csrfToken=ajax%3A6387627111370316937&amp;goback=%2Ebzo_*1_*1_*1_*1_*1_*1_*1_kirkendoll*5management*5llc&amp;trk=co_followed-stop" class="animated fadeIn animation-delay-7 linkedin"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+            <!--
+            <div class="dropdown animated fadeInDown animation-delay-11">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Login</a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-login-box animated fadeInUp">
+                    <form role="form">
+                        <h4>Login Form</h4>
+
+                        <div class="form-group">
+                            <div class="input-group login-input">
+                                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                <input type="text" class="form-control" placeholder="Username">
+                            </div>
+                            <br>
+                            <div class="input-group login-input">
+                                <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                <input type="password" class="form-control" placeholder="Password">
+                            </div>
+                            <div class="checkbox pull-left">
+                                <label>
+                                    <input type="checkbox"> Remember me
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-ar btn-primary pull-right">Login</button>
+                            <div class="clearfix"></div>
+                        </div>
+                    </form>
+                </div>
+            </div> <!-- dropdown -->
+            <!--
+            <div class="dropdown animated fadeInDown animation-delay-13">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
+                <div class="dropdown-menu dropdown-menu-right dropdown-search-box animated fadeInUp">
+                    <form role="form">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-ar btn-primary" type="button">Go!</button>
+                            </span>
+                        </div><!-- /input-group --><!--
+                    </form>
+                </div>
+            </div> <!-- dropdown -->
+        </nav>
+    </div> <!-- container -->
+</header> <!-- header-full -->
+<nav class="navbar navbar-static-top navbar-default navbar-header-full navbar-inverse" role="navigation" id="header">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand hidden-lg hidden-md hidden-sm" href="index.html">Kirkendoll Management</a>
+        </div> <!-- navbar-header -->
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!--<div class="pull-right">
+        
+            <a href="javascript:void(0);" class="sb-icon-navbar sb-toggle-right"><i class="fa fa-bars"></i></a>
+        </div>!-->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="about_us.html" class="active">About Us</a>
+                </li>
+                <li>
+                    <a href="clubs.html" class="active">Clubs</a>
+                </li>    
+                <li>
+                    <a href="blog.html" class="active">Blog</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="active">Contact</a>
+                </li>
+             </ul>
+        </div><!-- navbar-collapse -->
+    </div><!-- container -->
+</nav>
+
+<header class="main-header">
+    <div class="container">
+        <h1 class="page-title">Other Option</h1>
+
+        <ol class="breadcrumb pull-right">
+            <li><a href="#">Blog</a></li>
+            <li class="active">Other Option</li>
+        </ol>
+    </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <article class="post">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><a href="single.html" class="transicion">Lorem ipsum Minim Ut in nulla labore sint nostrud</a></div>
+                    <img src="img/demo/7.jpg" class="img-responsive" alt="Image">
+                    <div class="panel-body">
+                        <p>Enim velit Duis eu voluptate do tempor non irure nisi ad occaecat dolore aliqua laboris amet aute minim qui et Excepteur ide cupidatat Duis laborum id nulla in mollit consectetur animal Ut veniam magna ut exercitation ex sint sint ex sit est pariatur non nisi eu est magna ullamco minim nulla aliquip reprehenderit Lorem ipsum Minim Ut in nulla labore sint nostrud commodo.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, aliquid, ducimus, repellendus harum enim cum impedit soluta earum eligendi a perspiciatis voluptate voluptatibus sint accusantium sapiente vitae rem iste nihil quidem distinctio debitis ratione quis.</p>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="row">
+                            <div class="col-lg-10 col-md-9 col-sm-8">
+                                <i class="fa fa-clock-o"></i> Sep 29, 2013 <i class="fa fa-user"> </i>Patrick <i class="fa fa-folder-open"></i> <a href="#">Portfolio</a>, <a href="#">Design</a>.
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4">
+                                <a href="#" class="pull-right">Read more &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article> <!-- post -->
+
+            <article class="post">
+                <div class="panel panel-primary">
+                    <div class="panel-heading"><a href="single.html" class="">Featured post! occaecat dolore aliqua laboris</a></div>
+                    <img src="img/demo/3.jpg" class="img-responsive" alt="Image">
+                    <div class="panel-body">
+                        <p>Enim velit Duis eu voluptate do tempor non irure nisi ad occaecat dolore aliqua laboris amet aute minim qui et Excepteur ide cupidatat Duis laborum id nulla in mollit consectetur animal Ut veniam magna ut exercitation ex sint sint ex sit est pariatur non nisi eu est magna ullamco minim nulla aliquip reprehenderit Lorem ipsum Minim Ut in nulla labore sint nostrud commodo.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, aliquid, ducimus, repellendus harum enim cum impedit soluta earum eligendi a perspiciatis voluptate voluptatibus sint accusantium sapiente vitae rem iste nihil quidem distinctio debitis ratione quis.</p>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="row">
+                            <div class="col-lg-10 col-md-9 col-sm-8">
+                                <i class="fa fa-clock-o"></i> Sep 29, 2013 <i class="fa fa-user"> </i>Patrick <i class="fa fa-folder-open"></i> <a href="#">Portfolio</a>, <a href="#">Design</a>.
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4">
+                                <a href="#" class="pull-right">Read more &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article> <!-- post -->
+
+            <article class="post">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><a href="single.html" class="transicion">Video Post! Minim Ut in nulla labore sint nostrud</a></div>
+                    <div class="video">
+                        <iframe src="http://player.vimeo.com/video/50061391?title=0&amp;byline=0&amp;portrait=0"></iframe>
+                    </div>
+                    <div class="panel-body">
+                        <p>Enim velit Duis eu voluptate do tempor non irure nisi ad occaecat dolore aliqua laboris amet aute minim qui et Excepteur ide cupidatat Duis laborum id nulla in mollit consectetur animal Ut veniam magna ut exercitation ex sint sint ex sit est pariatur non nisi eu est magna ullamco minim nulla aliquip reprehenderit Lorem ipsum Minim Ut in nulla labore sint nostrud commodo.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, aliquid, ducimus, repellendus harum enim cum impedit soluta earum eligendi a perspiciatis voluptate voluptatibus sint accusantium sapiente vitae rem iste nihil quidem distinctio debitis ratione quis.</p>
+                        <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th>#</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Username</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>1</td>
+                                    <td>Mark</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                  </tr>
+                                  <tr>
+                                    <td>2</td>
+                                    <td>Jacob</td>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                                  </tr>
+                                  <tr>
+                                    <td>3</td>
+                                    <td>Larry</td>
+                                    <td>the Bird</td>
+                                    <td>@twitter</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="row">
+                            <div class="col-lg-10 col-md-9 col-sm-8">
+                                <i class="fa fa-clock-o"></i> Sep 29, 2013 <i class="fa fa-user"> </i>Patrick <i class="fa fa-folder-open"></i> <a href="#">Portfolio</a>, <a href="#">Design</a>.
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4">
+                                <a href="#" class="pull-right">Read more &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article> <!-- post -->
+
+            <article class="post">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><a href="single.html" class="transicion">Lorem ipsum Minim Ut in nulla labore sint nostrud</a></div>
+                    <img src="img/demo/1.jpg" class="img-responsive" alt="Image">
+                    <div class="panel-body">
+                        <p>Enim velit Duis eu voluptate do tempor non irure nisi ad occaecat dolore aliqua laboris amet aute minim qui et Excepteur ide cupidatat Duis laborum id nulla in mollit consectetur animal Ut veniam magna ut exercitation ex sint sint ex sit est pariatur non nisi eu est magna ullamco minim nulla aliquip reprehenderit Lorem ipsum Minim Ut in nulla labore sint nostrud commodo.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, aliquid, ducimus, repellendus harum enim cum impedit soluta earum eligendi a perspiciatis voluptate voluptatibus sint accusantium sapiente vitae rem iste nihil quidem distinctio debitis ratione quis.</p>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="row">
+                            <div class="col-lg-10 col-md-9 col-sm-8">
+                                <i class="fa fa-clock-o"></i> Sep 29, 2013 <i class="fa fa-user"> </i>Patrick <i class="fa fa-folder-open"></i> <a href="#">Portfolio</a>, <a href="#">Design</a>.
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4">
+                                <a href="#" class="pull-right">Read more &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article> <!-- post -->
+
+            <article class="post">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><a href="single.html" class="transicion">Lorem ipsum Minim Ut in nulla labore sint nostrud</a></div>
+                    <img src="img/demo/4.jpg" class="img-responsive" alt="Image">
+                    <div class="panel-body">
+                        <p>Enim velit Duis eu voluptate do tempor non irure nisi ad occaecat dolore aliqua laboris amet aute minim qui et Excepteur ide cupidatat Duis laborum id nulla in mollit consectetur animal Ut veniam magna ut exercitation ex sint sint ex sit est pariatur non nisi eu est magna ullamco minim nulla aliquip reprehenderit Lorem ipsum Minim Ut in nulla labore sint nostrud commodo.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, aliquid, ducimus, repellendus harum enim cum impedit soluta earum eligendi a perspiciatis voluptate voluptatibus sint accusantium sapiente vitae rem iste nihil quidem distinctio debitis ratione quis.</p>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="row">
+                            <div class="col-lg-10 col-md-9 col-sm-8">
+                                <i class="fa fa-clock-o"></i> Sep 29, 2013 <i class="fa fa-user"> </i>Patrick <i class="fa fa-folder-open"></i> <a href="#">Portfolio</a>, <a href="#">Design</a>.
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4">
+                                <a href="#" class="pull-right">Read more &raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article> <!-- post -->
+
+            <section class="text-center">
+                <ul class="pagination pagination-lg pagination-border">
+                  <li class="disabled"><a href="#">&laquo;</a></li>
+                  <li class="active"><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li><a href="#">6</a></li>
+                  <li><a href="#">7</a></li>
+                  <li><a href="#">8</a></li>
+                  <li><a href="#">9</a></li>
+                  <li><a href="#">10</a></li>
+                  <li><a href="#">&raquo;</a></li>
+                </ul>
+            </section>
+        </div> <!-- col-md-8 -->
+        <div class="col-md-4">
+            <aside class="sidebar">
+                <div class="block animated fadeInDown animation-delay-12">
+                    <div class="input-group">
+                      <input type="text" placeholder="Search..." class="form-control">
+                      <span class="input-group-btn">
+                        <button class="btn btn-ar btn-primary" type="button"><i class="fa fa-search no-margin-right"></i></button>
+                      </span>
+                    </div><!-- /input-group -->
+                </div>
+
+                <div class="block animated fadeInDown animation-delay-10">
+                    <ul class="nav nav-tabs nav-tabs-ar" id="myTab2">
+                        <li class="active"><a href="#fav" data-toggle="tab"><i class="fa fa-star"></i></a></li>
+                        <li><a href="#categories" data-toggle="tab"><i class="fa fa-folder-open"></i></a></li>
+                        <li><a href="#archive" data-toggle="tab"><i class="fa fa-clock-o"></i></a></li>
+                        <li><a href="#tags" data-toggle="tab"><i class="fa fa-tags"></i></a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="fav">
+                            <h3 class="post-title no-margin-top">Favorite Post</h3>
+                            <ul class="media-list">
+                                <li class="media">
+                                    <a class="pull-left" href="#"><img class="media-object" src="img/demo/m2.jpg" width="80" height="80" alt="image"></a>
+                                    <div class="media-body">
+                                        <p class="media-heading"><a href="#">Lorem ipsum dolor sit amet aut consectetur adipisicing elitl libero</a></p>
+                                        <small>Sep, 28 2013</small>
+                                    </div>
+                                </li>
+                                <li class="media">
+                                    <a class="pull-left" href="#"><img class="media-object" src="img/demo/m9.jpg" width="80" height="80" alt="image"></a>
+                                    <div class="media-body">
+                                        <p class="media-heading"><a href="#">Lorem ipsum dolor sit amet in consectetur adipisicing</a></p>
+                                        <small>Oct, 9 2013</small>
+                                    </div>
+                                </li>
+                                <li class="media">
+                                    <a class="pull-left" href="#"><img class="media-object" src="img/demo/m12.jpg" width="80" height="80" alt="image"></a>
+                                    <div class="media-body">
+                                        <p class="media-heading"><a href="#">Sit amet consectetur adipisicing elit incidunt minus</a></p>
+                                        <small>Dec, 30 2013</small>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane" id="archive">
+                             <h3 class="post-title no-margin-top">Archives</h3>
+                            <ul class="simple">
+                                <li><a href="#">December 2012</a></li>
+                                <li><a href="#">January 2013</a></li>
+                                <li><a href="#">February 2013</a></li>
+                                <li><a href="#">March 2013</a></li>
+                                <li><a href="#">April 2013</a></li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane" id="categories">
+                             <h3 class="post-title no-margin-top">Categories</h3>
+                            <ul class="simple">
+                                <li><a href="#">Game Programming</a></li>
+                                <li><a href="#">Artificial Intelligence</a>
+                                    <ul>
+                                        <li><a href="#">Artificial Life</a></li>
+                                        <li><a href="#">Neural Networks</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Resources</a></li>
+                                <li><a href="#">Web Developer</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-pane" id="tags">
+                             <h3 class="post-title">Tags</h3>
+                            <div class="tags-cloud">
+                                <a href="#" class="tag">Web</a>
+                                <a href="#" class="tag">Artificial Intelligence</a>
+                                <a href="#" class="tag">Programing</a>
+                                <a href="#" class="tag">Design</a>
+                                <a href="#" class="tag">3D</a>
+                                <a href="#" class="tag">Games</a>
+                                <a href="#" class="tag">Resources</a>
+                                <a href="#" class="tag">2D</a>
+                                <a href="#" class="tag">C++</a>
+                                <a href="#" class="tag">Jquery</a>
+                                <a href="#" class="tag">Javascript</a>
+                                <a href="#" class="tag">Library</a>
+                                <a href="#" class="tag">Windows</a>
+                                <a href="#" class="tag">Linux</a>
+                                <a href="#" class="tag">Cloud</a>
+                                <a href="#" class="tag">Game developer</a>
+                                <a href="#" class="tag">Server</a>
+                                <a href="#" class="tag">Google</a>
+                                <a href="#" class="tag">Bootstrap</a>
+                                <a href="#" class="tag">Less</a>
+                                <a href="#" class="tag">Sass</a>
+                                <a href="#" class="tag">Engine</a>
+                                <a href="#" class="tag">Node.js</a>
+                            </div>
+                        </div>
+                    </div> <!-- tab-content -->
+                </div>
+
+                <div class="panel panel-primary animated fadeInDown animation-delay-8">
+                    <div class="panel-heading"><i class="fa fa-play-circle"></i>Featured video</div>
+                    <div class="video">
+                        <iframe src="http://player.vimeo.com/video/21081887?title=0&amp;byline=0&amp;portrait=0"></iframe>
+
+                    </div>
+                </div>
+
+                <div class="panel panel-primary animated fadeInDown animation-delay-6">
+                    <div class="panel-heading"><i class="fa fa-comments"></i> Recent Comments</div>
+                    <div class="panel-body">
+                        <ul class="comments-sidebar">
+                            <li>
+                                <img src="img/demo/client.jpg" class="img-responsive" alt="Image">
+                                <h4><a href="#">Andrew</a> in <a href="#">Lorem ipsum Fugiat elit occaecat aute nisi</a></h4>
+                                <p>Lorem ipsum Occaecat ut esse amet ut eiusmod laborum cillum voluptate do laboris dolor ut elit aliquip velit ut nulla anim ...</p>
+                            </li>
+                            <li>
+                                <img src="img/demo/client2.jpg" class="img-responsive" alt="Image">
+                                <h4><a href="#">Andrew</a> in <a href="#">Lorem ipsum Fugiat elit occaecat aute nisi</a></h4>
+                                <p>Lorem ipsum Occaecat ut esse amet ut eiusmod laborum cillum voluptate do laboris dolor ut elit aliquip velit ut nulla anim ...</p>
+                            </li>
+                            <li>
+                                <img src="img/demo/client6.jpg" class="img-responsive" alt="Image">
+                                <h4><a href="#">Andrew</a> in <a href="#">Lorem ipsum Fugiat elit occaecat aute nisi</a></h4>
+                                <p>Lorem ipsum Occaecat ut esse amet ut eiusmod laborum cillum voluptate do laboris dolor ut elit aliquip velit ut nulla anim ...</p>
+                            </li>
+                            <li>
+                                <img src="img/demo/client4.jpg" class="img-responsive" alt="Image">
+                                <h4><a href="#">Andrew</a> in <a href="#">Lorem ipsum Fugiat elit occaecat aute nisi</a></h4>
+                                <p>Lorem ipsum Occaecat ut esse amet ut eiusmod laborum cillum voluptate do laboris dolor ut elit aliquip velit ut nulla anim ...</p>
+                            </li>
+                            <li>
+                                <img src="img/demo/client5.jpg" class="img-responsive" alt="Image">
+                                <h4><a href="#">Andrew</a> in <a href="#">Lorem ipsum Fugiat elit occaecat aute nisi</a></h4>
+                                <p>Lorem ipsum Occaecat ut esse amet ut eiusmod laborum cillum voluptate do laboris dolor ut elit aliquip velit ut nulla anim ...</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="panel panel-primary animated fadeInDown animation-delay-4">
+                    <div class="panel-heading"><i class="fa fa-align-left"></i> Widget Text</div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atomus, appellat dedocendi omnes quoddam atomos. Vestra. Corrupti sensum multa dissentiet uberius displicet medeam, efficiatur quaeque saluto sollicitare arbitraretur conectitur chaere, deorum consiliisque arbitrer doctrina nasci. Odia malis, scipio, libido. Iudico graviter seditione hoc. Venustate.</p>
+                    </div>
+                </div>
+
+            </aside> <!-- Sidebar -->
+        </div>
+    </div> <!-- row -->
+</div> <!-- container  -->
+
+<aside id="footer-widgets">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3 class="footer-widget-title">Sitemap</h3>
+                <ul class="list-unstyled three_cols">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="clubs.html">Clubs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="charity.html">Charity</a></li>
+                </ul>
+                <h3 class="footer-widget-title">Subscribe</h3>
+                <p>Lorem ipsum Amet fugiat elit nisi anim mollit minim labore ut esse Duis ullamco ad dolor veniam velit.</p>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Email Adress">
+                    <span class="input-group-btn">
+                        <button class="btn btn-ar btn-primary" type="button">Subscribe</button>
+                    </span>
+                </div><!-- /input-group -->
+            </div>
+            <div class="col-md-4">
+                <div class="footer-widget">
+                    <h3 class="footer-widget-title">Recent Post</h3>
+                    <div class="media">
+                        <a class="pull-left" href="#"><img class="media-object" src="" width="75" height="75" alt="image"></a>
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="#"></a></h4>
+                            <small></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="footer-widget">
+                    <h3 class="footer-widget-title">Our Properties</h3>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                            <a href="penthouse_baton_rouge.html" class="thumbnail"><img src="img/PHBR_Logo_small.png" class="img-responsive" alt="Penthouse Club Baton Rouge"></a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                            <a href="penthouse_new_orleans.html" class="thumbnail"><img src="img/PHNO_Logo_small.png" class="img-responsive" alt="Penthouse Club New Orleans"></a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                            <a href="Crazy_Horse_gonzales.html" class="thumbnail"><img src="img/CHG_Logo_small.png" class="img-responsive" alt="Crazy Horse Gonzales"></a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-3 col-xs-6">
+                            <a href="Crazy_Horse_port_allen.html" class="thumbnail"><img src="img/CHPA_Logo_small.png" class="img-responsive" alt="Crazy Horse Port Allen"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- row -->
+    </div> <!-- container -->
+</aside> <!-- footer-widgets -->
+<footer id="footer">
+    <p>&copy; 2014 <a href="#">Kirkendoll Management</a>, LLC. All rights reserved.</p>
+</footer>
+
+</div> <!-- boxed -->
+</div> <!-- sb-site -->
+
+<div class="sb-slidebar sb-right">
+    <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search...">
+        <span class="input-group-btn">
+            <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+        </span>
+    </div><!-- /input-group -->
+
+    <h2 class="slidebar-header no-margin-bottom">Navigation</h2>
+    <ul class="slidebar-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="clubs.html">Clubs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <h2 class="slidebar-header">Social Media</h2>
+    <div class="slidebar-social-icons">
+        <a href="#" class="social-icon-ar rss"><i class="fa fa-rss"></i></a>
+        <a href="#" class="social-icon-ar facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="social-icon-ar twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="social-icon-ar pinterest"><i class="fa fa-pinterest"></i></a>
+        <a href="#" class="social-icon-ar instagram"><i class="fa fa-instagram"></i></a>
+        <a href="#" class="social-icon-ar wordpress"><i class="fa fa-wordpress"></i></a>
+        <a href="#" class="social-icon-ar linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="social-icon-ar flickr"><i class="fa fa-flickr"></i></a>
+        <a href="#" class="social-icon-ar vine"><i class="fa fa-vine"></i></a>
+        <a href="#" class="social-icon-ar dribbble"><i class="fa fa-dribbble"></i></a>
+    </div>
+</div> <!-- sb-slidebar sb-right -->
+<div id="back-top">
+    <a href="#header"><i class="fa fa-chevron-up"></i></a>
+</div>
+<!-- Scripts -->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/slidebars.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/holder.js"></script>
+<script src="js/buttons.js"></script>
+<script src="js/styleswitcher.js"></script>
+<script src="js/jquery.mixitup.min.js"></script>
+<script src="js/circles.min.js"></script>
+
+<!-- Syntaxhighlighter -->
+<script src="js/syntaxhighlighter/shCore.js"></script>
+<script src="js/syntaxhighlighter/shBrushXml.js"></script>
+<script src="js/syntaxhighlighter/shBrushJScript.js"></script>
+
+<script src="js/app.js"></script>
+
+</body>
+
+</html>

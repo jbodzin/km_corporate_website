@@ -1,0 +1,29 @@
+{
+  "name": "reason-theme",
+  "version": "1.0",
+  "ignore": [
+    "bower_components",
+    ".gitignore",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "animate-css": "*",
+    "bootstrap": "3.2.0",
+    "Buttons": "latest",
+    "bxslider-4": "4.1.2",
+    "circles": "https://github.com/lugolabs/circles/archive/master.zip",
+    "font-awesome": "4.1.0",
+    "holderjs": "2.3.2",
+    "html5shiv": "3.7.2",
+    "jquery": "1.11.1",
+    "jquery-cookie": "1.4.1",
+    "jquery.countdown": "2.0.4",
+    "lightbox": "2.7.1",
+    "mixitup": "2.1.5",
+    "respond": "1.4.2",
+    "slidebars": "0.9.4",
+    "syntaxhighlighter": "http://alexgorbatchev.com/SyntaxHighlighter/download/download.php?sh_current",
+    "wowjs": "0.1.9"
+  }
+}
