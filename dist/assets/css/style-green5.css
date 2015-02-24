@@ -1107,6 +1107,9 @@ img.alignright + p {
 .margin-top-80 {
   margin-top: 80px;
 }
+.form-subscribe {
+  width: 50% !important;
+}
 hr {
   display: block;
   border-top: 1px solid #ddd;
@@ -1194,9 +1197,6 @@ hr.double {
   padding-bottom: 15px;
   margin-top: 39px;
   color: #000;
-}
-.section-title:first-letter {
-  color: #0a9200;
 }
 .css-section {
   margin-bottom: 50px;
