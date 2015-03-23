@@ -1,3 +1,15 @@
 .boxed {
     background-color: #fff;
 }
+
+.container{
+	width: 80% !important;
+}
+
+.mktoForm{
+	width: 100% !important;
+}
+
+.page-title{
+	margin-left: 10px !important;
+}
